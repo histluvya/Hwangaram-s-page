@@ -78,7 +78,7 @@ html {
 /* s1 프로파일 */
 /* profile */
 .s1 {
-    background-image: url(../img/프로필1024배경-가로좁게\,폴더부분.png);
+    background-image: url(../img/프로필1024배경-폴더몸만키워2.png);
     /* background-position:relative no-repeat center center; */
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -86,7 +86,7 @@ html {
 }
 .pr_container {
     display: flex; width: 80%; margin: auto;
-    padding-top: 265px;
+    padding-top: 235px;
     padding-bottom: 200px;
     gap: 20px;
 }
@@ -116,8 +116,10 @@ html {
     padding-left: 10px;
 }
 .pr_date {
+    line-height: 1.5;
     float: left;
     padding-top: 20px; padding-left: 10px;
+
 }
 .pr_txt {
     line-height: 1.5;
@@ -151,7 +153,7 @@ html {
 }
 /* s2 포트폴리오영역 */
 .s2 {
-    background-image: url(../img/프로필1024배경-가로좁게\,폴더부분.png);
+    background-image: url(../img/프로필1024배경-폴더몸만키워2.png);
     /* background-position:relative no-repeat center center; */
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -161,7 +163,7 @@ html {
 .slide_warp {
     display: flex;
     width: 300%;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .slide {
     position: absolute; left: 100%;
@@ -249,32 +251,43 @@ html {
     .section_home h1 {
         font-size: 80px;
     }
-    
+    .s0>.section_home>#aram {
+        color: #fff; font-size: 80px;
+        position: absolute; top: 54%; left: 51%;
+        transform: translate(-50%, -50%);
+        font-family: 'Pacifico', cursive;
+    }
+    .s0>.section_home>#homepage {
+            color: #fff; font-size: 80px;
+            position: absolute; top: 70%; left: 51%;
+            transform: translate(-50%, -50%);
+            font-family: 'Pacifico', cursive;
+    }
 
     /******* s1 프로파일 *******/
     .pr_container {
-        width: 90%; flex-direction: column;
-        padding-top: 150px;
+        width: 85%; flex-direction: column;
+        padding-top: 200px;
     }
     .pr_profile>div {
         float: left;
     }
     .pr_profile>ul {
         float: left;
-        margin-left: 20px;
+        margin-left: 50px;
     }
     .pr_profile>ul>li {
-        padding-left: 20px;
+        padding-left: 40x;
     }
     .ct_txt>ul>li>img {
         width: 40px; height: 40px;
     }
     .ct_inbox {
         padding:0;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .right_box>div {
-        margin-top: 20px;
+        margin-top: 0px;
     }
     /******** S2 포트폴리오 *********/
     .slide {
@@ -288,7 +301,7 @@ html {
     }
     .slide .pf_txt_container {
         position: relative;
-        top: 15vh; width: 80%;
+        top: 10vh; width: 80%;
     }
     .pf_gosite {
         margin-top: 30px;
@@ -352,13 +365,13 @@ html {
     }
     .pr_container {
         width: 100%;
-        padding-top:100px;
+        padding-top:150px;
         flex-direction: column;
     }
     .pr_profile {
         position: relative;
-        padding:0;
-        width: 100%;
+        padding-left:10px;
+        width: 95%;
     }
  
     .pr_container .pr_profile div {
@@ -393,7 +406,7 @@ html {
     }
     .pr_title {
         padding-left: 15px;
-        margin-left: 15px;
+        margin-left: 25px;
         width: 30%;
         font-size: 14px;
         float: none;
@@ -409,24 +422,24 @@ html {
         font-weight: normal;
     }
     .cer_box {
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .ct_box {
         width: 92%;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .ct_title {
-        font-size: 14px;
+        font-size: 13px;
     }
     .ct_txt {
         flex-direction: column;  
-        margin-top: 10px;
+        margin-top: 5px;
     }
     .ct_txt>ul {
         width: 74%;
         margin: auto;
-        line-height: 2;
+        line-height: 1.5;
     }
     .ct_txt>ul>li {
         float:left;
@@ -450,11 +463,11 @@ html {
     .slide>.image {
         width: 82%;
         position: relative;
-        top: 5vh;
+        top: 0;
     }
     .slide .pf_txt_container {
         position: relative;
-        top: 10vh;
+        top: 5vh;
         width: 80%;
     }
     .slide .pf_txt_container .pf_title {
@@ -480,6 +493,6 @@ html {
         font-size: 14px;
     }
     .left_arrow, .right_arrow {
-        width: 20px; top: 30%;
+        width: 20px; top: 40%;
     }
 }
