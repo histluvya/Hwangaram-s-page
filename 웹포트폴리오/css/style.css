@@ -131,8 +131,8 @@ html {
 }
 /* contact */
 .ct_inbox {
-    padding: 20px; background: #eee;
-    border: 5px double #ccc;
+    padding: 20px; background: white;
+    border: 5px double #295680;
     margin-top: 100px;
 }
 .ct_title {
@@ -153,7 +153,7 @@ html {
 }
 /* s2 포트폴리오영역 */
 .s2 {
-    background-image: url(../img/프로필1024배경-폴더몸만키워2.png);
+    background-image: url(../img/포트폴리오1024배경.png);
     /* background-position:relative no-repeat center center; */
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -237,11 +237,11 @@ html {
 .pf_gosite a:hover:before {width: 100%;}
 /* 화살표 */
 .left_arrow {
-    position: absolute; left: 10px; top: 45%;
+    position: absolute; left: 10px; top: 50%;
     cursor: pointer;
 }
 .right_arrow {
-    position: absolute; right: 10px; top: 45%;
+    position: absolute; right: 10px; top: 50%;
     cursor: pointer;
 }
 
@@ -266,8 +266,11 @@ html {
 
     /******* s1 프로파일 *******/
     .pr_container {
-        width: 85%; flex-direction: column;
-        padding-top: 200px;
+        width: 75%; flex-direction: column;
+        padding-top: 230px;
+    }
+    .pr_profile>div>img {
+        width: 180px;
     }
     .pr_profile>div {
         float: left;
@@ -373,6 +376,16 @@ html {
         padding-left:10px;
         width: 95%;
     }
+    #edu_contents {
+        margin-top: -15px;
+        padding-bottom: 10px;
+    }
+    #edu_name {
+        margin-top: -10px;
+    }
+    #licen_contents {
+        margin-top: -15px;
+    }
  
     .pr_container .pr_profile div {
         width: 40%;
@@ -465,6 +478,7 @@ html {
         position: relative;
         top: 0;
     }
+    
     .slide .pf_txt_container {
         position: relative;
         top: 5vh;
@@ -493,6 +507,6 @@ html {
         font-size: 14px;
     }
     .left_arrow, .right_arrow {
-        width: 20px; top: 40%;
+        width: 20px; top: 55%;
     }
 }
